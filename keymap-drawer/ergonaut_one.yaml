@@ -1,6 +1,6 @@
 layers:
   MAIN:
-  - {t: ↹, h: ESCAPE}
+  - ESCAPE
   - Q
   - W
   - E
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ;
-  - RIGHT ALT
+  - GLOBE
   - LEFT CONTROL
   - Z
   - X
@@ -35,15 +35,15 @@ layers:
   - ','
   - .
   - /
-  - RIGHT COMMAND
+  - RIGHT ALT
+  - LEFT COMMAND
   - {t: ↹, h: NUM}
-  - NUM
   - ␣
   - ENTER
-  - SYM
   - {t: BACKSPACE, h: SYM}
+  - RIGHT COMMAND
   NUM:
-  - {t: ↹, h: ESCAPE}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -54,8 +54,8 @@ layers:
   - '2'
   - '3'
   - '%'
-  - BACKSPACE
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
@@ -66,8 +66,8 @@ layers:
   - '5'
   - '6'
   - '#'
-  - RIGHT ALT
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
@@ -78,13 +78,13 @@ layers:
   - '8'
   - '9'
   - ''
-  - RIGHT COMMAND
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYM:
   - '~'
   - '!'
@@ -98,7 +98,7 @@ layers:
   - (
   - )
   - '-'
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -110,7 +110,7 @@ layers:
   - RIGHT ARROW
   - ;
   - ''''
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -122,12 +122,12 @@ layers:
   - '['
   - ']'
   - \
-  - ''
-  - ''
-  - LEFT SHIFT
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   SET:
   - ''
   - ''
@@ -165,8 +165,8 @@ layers:
   - BT 2
   - BT 3
   - BT CLR
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - {type: held}
