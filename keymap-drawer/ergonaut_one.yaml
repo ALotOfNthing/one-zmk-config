@@ -5,13 +5,13 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: '`'}
   - Y
   - U
   - I
   - O
   - P
-  - BACKSPACE
+  - {t: '[', h: BACKSPACE}
   - LEFT SHIFT
   - A
   - S
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ;
-  - GLOBE
+  - {t: '''', h: GLOBE}
   - LEFT CONTROL
   - Z
   - X
@@ -31,7 +31,7 @@ layers:
   - V
   - B
   - N
-  - M
+  - {t: M, h: ']'}
   - ','
   - .
   - /
@@ -50,9 +50,9 @@ layers:
   - F4
   - +
   - KP MULTIPLY
-  - '1'
-  - '2'
-  - '3'
+  - KP 1
+  - KP 2
+  - KP 3
   - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,9 +62,9 @@ layers:
   - F8
   - KP MINUS
   - KP DIVIDE
-  - '4'
-  - '5'
-  - '6'
+  - KP 4
+  - KP 5
+  - KP 6
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,10 +74,10 @@ layers:
   - F12
   - KP EQUAL
   - KP DOT
-  - '7'
-  - '8'
-  - '9'
-  - ''
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
