@@ -55,24 +55,24 @@ layers:
   - KP 3
   - '%'
   - BT CLR ALL
-  - {t: BT DISC, h: '0'}
-  - F5
-  - F6
-  - F7
-  - F8
-  - KP MINUS
+  - BT CLR ALL
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - KP DIVIDE
   - KP 4
   - KP 5
   - KP 6
   - '#'
   - {t: BT DISC, h: '0'}
-  - Reset
-  - F9
-  - F10
-  - F11
-  - F12
-  - KP EQUAL
+  - BT CLR
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - KP DOT
   - KP 7
   - KP 8

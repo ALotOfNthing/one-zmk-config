@@ -70,10 +70,10 @@
         lower_layer {
             display-name = "NUM";
             bindings = <
-&bt BT_CLR_ALL  &kp F1  &kp F2   &kp F3   &kp F4   &kp PLUS      &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERCENT      &bt BT_CLR_ALL
-&bt BT_DISC 0   &kp F5  &kp F6   &kp F7   &kp F8   &kp KP_MINUS  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp HASH         &bt BT_DISC 0
-&sys_reset      &kp F9  &kp F10  &kp F11  &kp F12  &kp KP_EQUAL  &kp KP_DOT       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &sys_reset
-                                 &trans   &trans   &bootloader   &bootloader      &trans           &trans
+&bt BT_CLR_ALL  &kp F1         &kp F2         &kp F3         &kp F4         &kp PLUS       &kp KP_MULTIPLY  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERCENT      &bt BT_CLR_ALL
+&bt BT_CLR_ALL  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp HASH         &bt BT_DISC 0
+&bt BT_CLR      &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &kp KP_DOT       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &sys_reset
+                                              &trans         &trans         &bootloader    &bootloader      &trans           &trans
             >;
         };
 
