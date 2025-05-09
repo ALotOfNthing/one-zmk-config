@@ -39,7 +39,7 @@ layers:
   - RIGHT ALT
   - LEFT COMMAND
   - {t: ↹, h: NUM}
-  - ␣
+  - A
   - ENTER
   - {t: BACKSPACE, h: SYM}
   - RIGHT COMMAND
