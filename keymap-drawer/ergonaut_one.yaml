@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - A
+  - ESCAPE
   - Q
   - W
   - E
